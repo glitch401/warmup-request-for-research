@@ -5,7 +5,7 @@
 
 ---
 ## Warmup 1:
-Train an LSTM to solve the XOR problem: that is, given a sequence of bits, determine its parity. The LSTM should consume the sequence, one bit at a time, and then output the correct answer at the sequence’s end. Test the two approaches below:
+Train an LSTM to solve the XOR problem: that is, given a sequence of bits, determine its parity. The LSTM should consume the sequence, one bit at a time, and then output the correct answer at the sequenceâ€™s end. Test the two approaches below:
   - Generate a dataset of random 100,000 binary strings of length 50. Train the LSTM; what performance do you get?
   - Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. Train the LSTM. Does it succeed? What explains the difference?
 
@@ -18,6 +18,17 @@ Install the dependencies to start testing, with the following:
 ```sh
 $ pyton warmup1.py
 ```
+## Outcome Visualization
+
+- ### Use Case-1 : 
+(length=50,numberOfValues=100,000)
+
+!![Training and validation loss](https://github.com/glitch401/warmup-request-for-research/blob/master/losses.png "Training and validation Loss")
+![Training and validation accuracy](https://github.com/glitch401/warmup-request-for-research/blob/master/accuracy.png "Training and validation accuracy")
+
+- ### Use Case-2 :
+
+
 ---
 ## Warmup 2:
  Implement a clone of the classic Snake game as a Gym environment, and solve it with a reinforcement learning algorithm of your choice. Tweet us videos of the agent playing. Were you able to train a policy that wins the game?
